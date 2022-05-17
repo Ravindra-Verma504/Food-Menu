@@ -1,0 +1,284 @@
+              #ROYAL DHABA#
+ 
+print("Food Manu")
+print("1-sunday")
+print("2-monday")
+print("3-tuesday")
+print("4-wednesday")
+print("5-thursday")  
+print("6-friday")    
+print("7-saturday")
+  
+#input your choice
+
+day=int(input("enter your day:-(1-7)"))
+    
+if day==1:
+    print("sunday")
+    print("1-breakfast")
+    print("2-lunch")
+    print("3-dinner")
+    
+    ct=int(input("choose your time:-(1-3)"))
+    
+    if ct==1:
+        print("breakfast")
+        print("1-alu fartha Rs 30\n2-tea Rs10\n3-masala dhosa Rs50")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("alu fartha Rs30")
+        elif cm==2:
+            print("tea Rs 10")
+        elif cm==3:
+            print("dhosa Rs50")
+    elif ct==2:
+        print("lunch")
+        print("1-masur dal Rs50\n2-chawal Rs40\n3-alu bhujiya Rs30")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("masur dal Rs50")
+        elif cm==2:
+            print("chawal Rs 40")
+        elif cm==3:
+            print("alu Rs30")
+    elif ct==3:
+        print("dinner")
+        print("1-roti Rs20\n2-paneer sabji Rs60\n3-plain rice Rs40")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("roti Rs20")
+        elif cm==2:
+            print("paneer sabji Rs 60")
+        elif cm==3:
+            print("plain rice Rs40")
+if day==2:
+    print("monday")
+    print("1-breakfast")
+    print("2-lunch")
+    print("3-dinner")
+    
+    ct=int(input("choose your time(1-3)"))
+    
+    if ct==1:
+        print("breakfast")
+        print("1-chhole Rs20\n2-bhature Rs30\n3-rasma chwal Rs40")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("chhole Rs20")
+        elif cm==2:
+            print("bhature Rs 30")
+        elif cm==3:
+            print("rasma chawal Rs40")
+    elif ct==2:
+         print("lunch")
+         print("1-chana dal Rs50\n2-chawal Rs40\n3-fried rice Rs50")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("chana dal Rs50")
+         elif cm==2:
+            print("chawal Rs 40")
+         elif cm==3:
+            print("fried rice Rs50")
+    elif ct==3:
+         print("dinner")
+         print("1-chicken Rs 100\n2-roti Rs20\n3-veg biriyani Rs100")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("chicken Rs100")
+         elif cm==2:
+            print("roti Rs 20")
+         elif cm==3:
+            print("veg biriyani Rs100")
+         
+if day==3:
+    print("tuesday")
+    print("1-breakfast")
+    print("2-lunch")
+    print("3-dinner")
+    
+    ct=int(input("chosse your time(1-3)"))
+    if ct==1:
+        print("breakfast")
+        print("1-poha Rs50\n2-sandwich Rs40\n3-halwa Rs30")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("poha  Rs50")
+        elif cm==2:
+            print("sandwich Rs 40")
+        elif cm==3:
+            print("halwa Rs30")
+    elif ct==2:
+        print("lunch")
+        print("1-rasma Rs40\n2-chawal Rs30\3-zira rice Rs40")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("rasma Rs30")
+        elif cm==2:
+            print("rice Rs 10")
+        elif cm==3:
+            print("zira rice Rs50")
+    elif ct==3:
+         print("dinner")
+         print("1-puri Rs30\n2-sabji Rs20\n3-chicken biriyani Rs150")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("puri Rs30")
+         elif cm==2:
+            print("sabji Rs 20")
+         elif cm==3:
+            print("chicken biriyani Rs150")
+         
+if day==4:
+    print("wednesday")
+    print("1-breakfast")
+    print("2-lunch")
+    print("3-dinner")
+    
+    ct=int(input("chosse your time(1-3)"))
+    
+    if ct==1:
+        print("breakfast")
+        print("1-maigi Rs 40\n2-sewai Rs30\n3-pasta Rs40")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("maigi Rs40")
+        elif cm==2:
+            print("sewai Rs 30")
+        elif cm==3:
+            print("pasta Rs40")
+    elif ct==2:
+        print("lunch")
+        print("1-mung dal Rs60\n2-chawal Rs40\n3-zira rice Rs50")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("mung dal Rs60")
+        elif cm==2:
+            print("chawal Rs 40")
+        elif cm==3:
+            print("zira Rs50")
+    elif ct==3:
+        print("dinner")
+        print("1-anda Rs60\n2-roti Rs30\n3-rice Rs40")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("anda Rs60")
+        elif cm==2:
+            print("roti Rs 30")
+        elif cm==3:
+            print("rice Rs40")
+if day==5:
+   print("thursday")
+   print("1-breakfast")
+   print("2-lunch")
+   print("3-dinner")
+    
+   ct=int(input("chosse your time(1-3)"))
+    
+   if ct==1:
+      print("break fast")
+      print("1-pasta Rs40\n2-fartha Rs30\n3-maigi Rs 30")
+      cm=int(input("choose your meal:-(1-3)"))
+      if cm==1:
+            print("pasta Rs40")
+      elif cm==2:
+            print("fartha Rs30")
+      elif cm==3:
+            print("maigi Rs30")
+   elif ct==2:
+        print("lunch")
+        print("1-paneer Rs80\n2-rice Rs40\n3-salad Rs30")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("paneer Rs80")
+        elif cm==2:
+            print("rice Rs 40")
+        elif cm==3:
+            print("salad Rs30")
+   elif ct==3:
+         print("dinner")
+         print("1-masrum Rs70\n2-roti Rs 15\n3-rice Rs50")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("masrum Rs70")
+         elif cm==2:
+            print("roti Rs 15")
+         elif cm==3:
+            print("rice Rs50")
+if day==6:
+    print("friday")
+    print("1-breakfast")
+    print("2-lunch")
+    print("3-dinner")
+    
+    ct=int(input("chosse your time(1-3)"))
+    
+    if ct==1:
+        print("breakfast")
+        print("1-fried rice Rs40\n2-dahi bada Rs 30\n3-bada pav Rs30")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("fried rice Rs40")
+        elif cm==2:
+            print("dahi bada Rs 30")
+        elif cm==3:
+            print("bada pav Rs30")
+    elif ct==2:
+         print("lunch")
+         print("1-chhole Rs40\n3-rice Rs40\n3-roti Rs15")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("chhole Rs40")
+         elif cm==2:
+            print("rice Rs 40")
+         elif cm==3:
+            print("roti Rs15")
+    elif ct==3:
+         print("dinner") 
+         print("1-mattun Rs120\n2-roti Rs15\n3-plan rice Rs60")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("mattun Rs120")
+         elif cm==2:
+            print("roti Rs 15")
+         elif cm==3:
+            print("plain rice Rs60")
+if day==7:
+    print("saturday")
+    print("1-breakfast")
+    print("2-lunch")
+    print("3-dinner")
+    
+    ct=int(input("chosse your time(1-3)"))
+    
+    if ct==1:
+        print("breakfast")
+        print("1-poha Rs40\n2-dahi roti Rs 30\n3-bada pav Rs30")
+        cm=int(input("choose your meal:-(1-3)"))
+        if cm==1:
+            print("poha Rs40")
+        elif cm==2:
+            print("dahi roti Rs 30")
+        elif cm==3:
+            print("bada pav Rs30")
+    elif ct==2:
+         print("lunch")
+         print("1-chana dal Rs40\n3-rice Rs40\n3-roti Rs15")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("chana dal Rs40")
+         elif cm==2:
+            print("rice Rs 40")
+         elif cm==3:
+            print("roti Rs15")
+    elif ct==3:
+         print("dinner") 
+         print("1-veg biriyani Rs120\n2-roti Rs15\n3-veg sabji Rs60")
+         cm=int(input("choose your meal:-(1-3)"))
+         if cm==1:
+            print("ver biriyani Rs120")
+         elif cm==2:
+            print("roti Rs 15")
+         elif cm==3:
+            print("veg sabji Rs60")    
+else:
+    print("invailid choose")
